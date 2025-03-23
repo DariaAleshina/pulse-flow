@@ -26,8 +26,10 @@ WHITE SPACE
 :root {
   /* color system */
   --black-primary: #010403;
-  --coral-primary: #ec5b38;
-  --coral-secondary: #ee6b4c;
+  /* --coral-primary: #ec5b38; prev color*/
+  --coral-primary: #e93e3c;
+  --coral-secondary: #eb5150;
+  --coral-darker: #ba3230;
   --blue-light-primary: #d7e7f6;
   --blue-light-secondary: #a7c8ed;
   --beige-primary: #f0ece6;
@@ -84,7 +86,35 @@ body {
   margin-bottom: 4.8rem;
 }
 
-.hero-img-box {
+.hero-users-box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.hero-users-box p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.hero-users-box span {
+  color: var(--coral-darker);
+}
+
+.hero-users-img {
+  display: flex;
+}
+
+.hero-users-img img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid var(--blue-light-primary);
+}
+.hero-users-img img:last-child {
+  margin-right: 0;
 }
 
 .hero-img {
