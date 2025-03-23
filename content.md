@@ -137,3 +137,17 @@ Follow the vibes: Instagram | Facebook | YouTube (links coming soon!)
 Start your free trial today and feel the PulseFlow difference.
 
 👉 **[Start My Free Trial]**
+
+---
+
+## Sections
+
+- Logo + Navigation
+- Hero
+- Featured in
+- How it works
+- Examples of practice sessions
+- Testimonials + Gallery
+- CTA
+- Pricing + Features
+- Footer (contact, address, nav details)
