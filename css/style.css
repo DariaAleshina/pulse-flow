@@ -7,13 +7,16 @@ FONT SIZE SYSTEM (px)
 
 LINE HEIGHTS
 default: 1
+h1 1.1
+p 1.5 (at font 20px)
 
 SHADOWS
 
 BORDER RADIUS
-small 9px
+default 9px
 
 FONT WEIGHTS
+default 400
 bold 600
 
 WHITE SPACE
