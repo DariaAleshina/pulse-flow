@@ -11,6 +11,10 @@ default: 1
 SHADOWS
 
 BORDER RADIUS
+small 9px
+
+FONT WEIGHTS
+bold 600
 
 WHITE SPACE
 
@@ -110,7 +114,46 @@ body {
   text-transform: lowercase;
 }
 
-.main-nav {
+.logo span {
+  color: var(--coral-primary);
+}
+
+/* .main-nav {
+} */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: var(--black-primary);
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: var(--coral-darker);
+}
+
+.nav-link.cta-link:link,
+.nav-link.cta-link:visited {
+  background-color: var(--coral-primary);
+  color: var(--beige-primary);
+  border-radius: 9px;
+  padding: 1.2rem 2.4rem;
+}
+
+.nav-link.cta-link:hover,
+.nav-link.cta-link:active {
+  background-color: var(--coral-secondary);
 }
 
 /* hero */
@@ -130,9 +173,9 @@ body {
   padding: 0 3.2rem;
 }
 
-.hero-text-box {
-  /* padding: 0 3.2rem; */
-}
+/* .hero-text-box {
+   padding: 0 3.2rem; 
+} */
 
 .hero-heading {
   font-size: 6.2rem;
