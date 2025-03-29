@@ -56,6 +56,31 @@ body {
 }
 
 /* reusable */
+.section {
+  /* convention view width 1140px */
+  max-width: 120rem;
+
+  /* trick to center content */
+  margin: 0 auto;
+
+  /* adding padding so that content is not glues when width <= max-width */
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 8rem;
+  background-color: var(--coral-secondary);
+}
+
+.grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
@@ -160,7 +185,6 @@ body {
 }
 
 /* hero */
-
 .section-hero {
   background-color: var(--blue-light-primary);
   padding: 4.8rem 0 8rem 0;
@@ -229,3 +253,8 @@ body {
 .hero-img {
   width: 100%;
 }
+
+/* section HOW IT WORKS*/
+
+/* .section-how {
+} */
