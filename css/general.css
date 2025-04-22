@@ -63,7 +63,7 @@ body {
   /* trick to center content */
   margin: 0 auto;
 
-  /* adding padding so that content is not glues when width <= max-width */
+  /* adding padding so that content is not glued when width <= max-width */
   padding: 0 3.2rem;
 }
 

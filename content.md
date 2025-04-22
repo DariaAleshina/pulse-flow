@@ -45,7 +45,7 @@ The all-in-one fitness and mindfulness subscription that keeps you moving, breat
 
 ## 💥 Sample Daily Flows
 
-### 🧘‍♀️ Morning Energy Boost
+### 🧘‍♀️ Morning Energy
 
 - **Style:** Yoga + Breathwork
 - **Duration:** 20 min
