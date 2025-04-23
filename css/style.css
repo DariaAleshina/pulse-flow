@@ -274,7 +274,6 @@
 
 .session-content-attributes li p {
   line-height: 2.4rem;
-  /* color: #777; */
 }
 
 .attribute-icon {
@@ -283,7 +282,6 @@
 }
 
 ion-icon {
-  /* color: var(--coral-primary); */
   font-size: 2.4rem;
 }
 
@@ -307,7 +305,6 @@ ion-icon {
 
 .icon-checkmark {
   font-size: 3rem;
-  /* color: var(--coral-primary); */
   --ionicon-stroke-width: 7rem;
 }
 
