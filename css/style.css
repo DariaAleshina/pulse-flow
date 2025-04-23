@@ -196,9 +196,19 @@
 /* section SAMPLE-SESSIONS */
 .section-sessions {
   padding: 9.6rem 0;
+  background-color: white;
 }
 
 .session-card {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.2rem;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.session-card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .session-img {
@@ -206,11 +216,43 @@
 }
 
 .session-content {
-  padding: 2rem;
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.tag-list {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+.tag-color-1 {
+  background: var(--gradient-1);
+}
+
+.tag-color-2 {
+  background: var(--gradient-2);
+}
+
+.tag-color-3 {
+  background: var(--gradient-3);
+}
+
+.tag-color-4 {
+  background: var(--gradient-4);
 }
 
 .session-content-title {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 3.2rem;
 }
@@ -223,5 +265,53 @@
 }
 
 .session-content-attributes li {
-  font-size: 1.8;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  color: #888;
+}
+
+.session-content-attributes li p {
+  line-height: 2.4rem;
+  /* color: #777; */
+}
+
+.attribute-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+ion-icon {
+  /* color: var(--coral-primary); */
+  font-size: 2.4rem;
+}
+
+.trainings-card h3 {
+  color: var(--coral-primary);
+}
+
+.trainings-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.trainings-list li {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.icon-checkmark {
+  font-size: 3rem;
+  /* color: var(--coral-primary); */
+  --ionicon-stroke-width: 7rem;
+}
+
+.sessions-link-box {
+  text-align: center;
+  font-size: 1.8rem;
 }
