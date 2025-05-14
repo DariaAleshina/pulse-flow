@@ -315,11 +315,21 @@ ion-icon {
 
 /* section TESTIMONIALS */
 .section-testimonials {
-  padding: 9.6rem 0;
-}
-.box-testimonials {
   display: grid;
-  gap: 4.8rem;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonial-header-block {
+  /* padding: 9.6rem 4.6rem 9.6rem 9.6rem; */
+  padding: 9.6rem;
+}
+
+.box-testimonials {
+  padding-top: 2.4rem;
+  display: grid;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -329,6 +339,7 @@ ion-icon {
 .testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
+  border: 0.7rem solid var(--coral-primary);
   margin-bottom: 1.2rem;
 }
 
@@ -344,4 +355,22 @@ ion-icon {
 }
 
 .box-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.test-gallery-item {
+  overflow: hidden;
+}
+
+.test-gallery-img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.test-gallery-img:hover {
+  transform: scale(1.1);
 }
