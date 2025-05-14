@@ -137,7 +137,7 @@
 }
 
 .heading-featured {
-  color: #888;
+  color: var(--grey-primary);
   font-size: 1.6rem;
   text-transform: capitalize;
   letter-spacing: 0.75px;
@@ -269,7 +269,7 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
-  color: #888;
+  color: var(--grey-primary);
 }
 
 .session-content-attributes li p {
@@ -311,4 +311,37 @@ ion-icon {
 .sessions-link-box {
   text-align: center;
   font-size: 1.8rem;
+}
+
+/* section TESTIMONIALS */
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+.box-testimonials {
+  display: grid;
+  gap: 4.8rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.testimonial {
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-quote {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: var(--grey-primary);
+}
+
+.box-gallery {
 }
