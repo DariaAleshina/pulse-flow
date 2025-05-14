@@ -376,3 +376,73 @@ ion-icon {
   padding: 9.6rem 0;
   background-color: white;
 }
+
+.pricing-plan-card {
+  border-radius: 1.1rem;
+
+  width: 75%;
+}
+
+.plan--1 {
+  justify-self: end;
+  border: 0.2rem solid var(--blue-light-primary);
+  padding: 4.6rem;
+}
+
+.plan--2 {
+  background-color: var(--blue-light-primary);
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.plan--2::after {
+  content: 'Best value';
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background: var(--gradient-2);
+  color: white;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-title {
+  color: var(--coral-primary);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price-number {
+  font-size: 6.2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price-number span {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-right: 0.5rem !important;
+}
+
+.plan-price-text {
+  color: var(--grey-primary);
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.plan-button {
+  text-align: center;
+  margin-top: 4.8rem;
+}

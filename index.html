@@ -517,16 +517,25 @@
         <div class="container grid grid--2">
           <!-- Plan 1 -->
           <div class="pricing-plan-card plan--1">
-            <p class="plan-title">Monthly</p>
-            <p class="plan-price-number"><span>$</span>29</p>
-            <p class="plan-price-text">per month. That's just $0.96/day</p>
+            <header class="plan-header">
+              <p class="plan-title">Monthly</p>
+              <p class="plan-price-number"><span>$</span>29</p>
+              <p class="plan-price-text">per month. That's just $0.96/day</p>
+            </header>
             <ul class="list">
               <li>
                 <ion-icon
                   class="icon-checkmark"
                   name="checkmark-outline"
                 ></ion-icon>
-                <p>For those who value flexibility</p>
+                <p>When flexibility is key</p>
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon>
+                <p>No long-term commitment</p>
               </li>
               <li>
                 <ion-icon
@@ -536,16 +545,18 @@
                 <p>Billed monthly</p>
               </li>
             </ul>
-            <a href="#" class="btn btn--primary">Get Started Now</a>
+            <div class="plan-button">
+              <a href="#" class="btn btn--primary">Get Started Now</a>
+            </div>
           </div>
 
           <!-- Plan 2 -->
           <div class="pricing-plan-card plan--2">
-            <p class="plan-title">Yearly</p>
-            <p class="plan-price-number"><span>$</span>249</p>
-            <p class="plan-price-text">
-              per year. That's just $20.75/month or $0.96/day
-            </p>
+            <header class="plan-header">
+              <p class="plan-title">Yearly</p>
+              <p class="plan-price-number"><span>$</span>249</p>
+              <p class="plan-price-text">per year. That's just $0.68/day</p>
+            </header>
             <ul class="list">
               <li>
                 <ion-icon
@@ -559,11 +570,28 @@
                   class="icon-checkmark"
                   name="checkmark-outline"
                 ></ion-icon>
+                <p>Save over 25%</p>
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon>
                 <p>Billed annually</p>
               </li>
             </ul>
-            <a href="#" class="btn btn--primary">Start 14-Day Free Trial</a>
+            <div class="plan-button">
+              <a href="#" class="btn btn--primary">Start 10-Day Free Trial</a>
+            </div>
           </div>
+        </div>
+
+        <!-- features block -->
+        <div class="container grid grid--4">
+          <div>Feature 1</div>
+          <div>Feature 2</div>
+          <div>Feature 3</div>
+          <div>Feature 4</div>
         </div>
       </section>
       <!-- END of PRICING section -->
