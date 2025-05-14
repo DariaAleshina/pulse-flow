@@ -197,3 +197,19 @@ strong {
 .center-text {
   text-align: center;
 }
+
+/* LIST */
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list li {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
