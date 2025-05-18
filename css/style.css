@@ -473,3 +473,55 @@ ion-icon {
   font-size: 1.4rem;
   line-height: 1.4;
 }
+
+/* CTA section */
+.section-cta {
+  background-color: white;
+  padding: 9.6rem 0;
+}
+.cta-box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: var(--gradient-5);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  overflow: hidden;
+
+  /* temp */
+  height: 50rem;
+}
+
+.cta-imagebox {
+  background-image: linear-gradient(
+      to top,
+      rgba(167, 200, 237, 0.3),
+      hsla(212, 91%, 86%, 0.3)
+    ),
+    url('../img/cta-img.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.cta-textbox {
+  color: #21282f;
+  padding: 4.2rem 6.4rem 6.4rem 6.4rem;
+}
+
+.cta-title {
+  color: #21282f;
+  /* color: #323c47; */
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 3.2rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2.4rem;
+  column-gap: 3.2rem;
+}

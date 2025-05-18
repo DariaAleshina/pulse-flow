@@ -47,6 +47,7 @@ WHITE SPACE
   --gradient-2: linear-gradient(to right top, #b0272f, #ee8286);
   --gradient-3: linear-gradient(to right top, #5197ba, #83bcbb);
   --gradient-4: linear-gradient(to right top, #a3b8eb, #c64e55);
+  --gradient-5: linear-gradient(to top, #a7c8ed, #bddafc);
 
   /* resetting REM unit */
   font-size: 62.5%;
