@@ -525,3 +525,16 @@ ion-icon {
   row-gap: 2.4rem;
   column-gap: 3.2rem;
 }
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input {
+}
+.cta-form select {
+}
+.cta-form button {
+}
