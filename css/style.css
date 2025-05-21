@@ -486,9 +486,11 @@ ion-icon {
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   overflow: hidden;
+}
 
-  /* temp */
-  height: 50rem;
+.cta-box *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(89, 105, 120, 0.4);
 }
 
 .cta-imagebox {
@@ -508,8 +510,7 @@ ion-icon {
 }
 
 .cta-title {
-  color: #21282f;
-  /* color: #323c47; */
+  color: inherit;
   margin-bottom: 3.2rem;
 }
 
@@ -532,9 +533,38 @@ ion-icon {
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
-.cta-form input {
-}
+.cta-form input,
 .cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: var(--blue-super-light);
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-.cta-form button {
+
+.cta-form input::placeholder,
+.cta-form select::placeholder {
+  color: var(--grey-super-light);
+}
+
+.btn-form {
+  background-color: #546477;
+  color: var(--blue-super-light);
+  align-self: end;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+}
+
+.btn-form:hover {
+  background-color: #43505f;
+}
+
+.btn-form:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 242, 255, 0.8);
 }

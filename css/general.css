@@ -31,6 +31,11 @@ WHITE SPACE
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #b2c8dcd7;
+}
+
 :root {
   /* color system */
   --black-primary: #010403;
@@ -39,9 +44,11 @@ WHITE SPACE
   --coral-darker: #ba3230;
   --blue-light-primary: #d7e7f6;
   --blue-light-secondary: #a7c8ed;
+  --blue-super-light: #edf4fb;
   --beige-primary: #f0ece6;
   --beige-secondary: #f3f0eb;
   --grey-primary: #6b6b6b;
+  --grey-super-light: #aaa;
 
   --gradient-1: linear-gradient(to right top, #d93f3c, #eea05c);
   --gradient-2: linear-gradient(to right top, #b0272f, #ee8286);
@@ -129,6 +136,7 @@ body {
   line-height: 1.1;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -138,6 +146,8 @@ body {
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s;
+  border: none;
+  cursor: pointer;
 }
 
 .btn--primary:link,
