@@ -61,6 +61,18 @@ WHITE SPACE
   background-color: var(--beige-secondary);
 }
 
+/* removing default link styling  */
+a {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 4px;
+}
+
+/* removing default list styling */
+ul {
+  list-style: none;
+}
+
 /* general */
 body {
   font-family: 'Poppins', sans-serif;
@@ -100,6 +112,10 @@ body {
 
 .grid--4 {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5 {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid-center-ver {
