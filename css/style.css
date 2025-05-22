@@ -570,3 +570,63 @@ ion-icon {
 }
 
 /* FOOTER */
+.footer {
+  padding: 9.6rem 0;
+}
+
+/* .footer-col {
+  display: flex;
+  flex-direction: column;
+} */
+
+.footer-logo,
+.footer-header {
+  margin-bottom: 4rem;
+}
+
+.footer-logo {
+  display: block;
+}
+
+.footer-header {
+  height: 30px;
+  padding: 6px 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--grey-darker);
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact {
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: var(--grey-primary);
+  margin: auto;
+}
+
+.footer-nav {
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.6rem;
+  color: var(--grey-primary);
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--grey-darker);
+}
