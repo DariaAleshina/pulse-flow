@@ -579,6 +579,11 @@ ion-icon {
   flex-direction: column;
 } */
 
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-logo,
 .footer-header {
   margin-bottom: 4rem;
@@ -613,7 +618,7 @@ ion-icon {
   font-size: 1.4rem;
   line-height: 1.4;
   color: var(--grey-primary);
-  margin: auto;
+  margin-top: auto;
 }
 
 .footer-nav {
