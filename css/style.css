@@ -23,9 +23,6 @@
   color: var(--coral-primary);
 }
 
-/* .main-nav {
-} */
-
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -102,6 +99,7 @@
 .hero-users-box p {
   font-size: 1.8rem;
   font-weight: 600;
+  text-align: left;
 }
 
 .hero-users-box span {

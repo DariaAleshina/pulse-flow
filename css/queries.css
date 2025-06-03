@@ -55,11 +55,64 @@
     font-size: 50%;
   }
 
+  .grid {
+    column-gap: 3.4rem;
+  }
+
   .hero-container {
     grid-template-columns: 1fr;
+    padding: 0 3.2rem;
+    gap: 8rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-text-box {
+    padding: 0 3.2rem;
+  }
+
+  .hero-description {
+    width: 85%;
+    margin: 0 auto 4.8rem;
   }
 
   .hero-img {
     width: 60%;
   }
+
+  .hero-users-box {
+    justify-content: center;
+    margin-top: 4.8rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .how-step-number {
+    font-size: 7.4rem;
+  }
+
+  .session-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .box-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
+
+/* 
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
