@@ -60,6 +60,7 @@ WHITE SPACE
   /* resetting REM unit */
   font-size: 62.5%;
   background-color: var(--beige-secondary);
+  overflow-x: hidden;
 }
 
 /* removing default link styling  */
@@ -80,6 +81,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: var(--black-primary);
+  overflow-x: hidden;
 }
 
 /* reusable */
