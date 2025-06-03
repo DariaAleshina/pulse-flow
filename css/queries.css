@@ -237,6 +237,43 @@
   }
 }
 
+/* for Phones - below 544px*/
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2,
+  .grid--3,
+  .grid--4 {
+    grid-template-columns: 1fr;
+  }
+  .hero-text-box {
+    padding: 0;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+  }
+
+  .logos img {
+    margin: 1.2rem;
+  }
+}
+
 /* 
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
