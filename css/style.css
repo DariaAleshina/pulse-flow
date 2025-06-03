@@ -58,6 +58,23 @@
   background-color: var(--coral-secondary);
 }
 
+/* mobile nav */
+.btn-mobile-nav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
+}
+
 /* hero */
 .section-hero {
   background-color: var(--blue-light-primary);
@@ -359,13 +376,13 @@ ion-icon {
 
 .pricing-plan-card {
   border-radius: 1.1rem;
-
   width: 75%;
 }
 
 .plan--1 {
   justify-self: end;
   border: 0.2rem solid var(--blue-light-primary);
+  /* different vs plan 2 due to boarder effect */
   padding: 4.6rem;
 }
 
