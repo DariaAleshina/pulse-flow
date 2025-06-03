@@ -60,6 +60,7 @@ WHITE SPACE
   /* resetting REM unit */
   font-size: 62.5%;
   background-color: var(--beige-secondary);
+  overflow: hidden;
 }
 
 /* removing default link styling  */
@@ -96,7 +97,8 @@ body {
 
 .grid {
   display: grid;
-  gap: 6.4rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
 }
 
 .grid:not(:last-child) {
