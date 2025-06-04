@@ -46,11 +46,28 @@ const scrollSmoothly = function (e) {
 
 }
 
-
 header.addEventListener('click', (e) => scrollSmoothly(e));
 footer.addEventListener('click', (e) => scrollSmoothly(e));
 sectionHero.addEventListener('click', (e) => scrollSmoothly(e));
 
+// STICKY NAVIGATION
+const obs = new IntersectionObserver(function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+    if (!ent.isIntersecting) {
+        document.body.classList.add('sticky');
+    }
+
+    if (ent.isIntersecting) {
+        document.body.classList.remove('sticky');
+    }
+}, {
+    // appearing in the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: '-80px',
+});
+obs.observe(sectionHero);
 
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
