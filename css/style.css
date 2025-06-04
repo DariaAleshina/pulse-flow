@@ -620,6 +620,12 @@ ion-icon {
   gap: 2.4rem;
 }
 
+.social-links li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .copyright {
   font-size: 1.4rem;
   line-height: 1.4;

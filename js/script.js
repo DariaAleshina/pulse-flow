@@ -3,6 +3,7 @@ const btnMobileNav = document.querySelector('.btn-mobile-nav');
 const header = document.querySelector('.header');
 const sectionHero = document.querySelector('.section-hero');
 const footer = document.querySelector('footer');
+const sessionsAllLink = document.querySelector('#sessions-link');
 
 // Changing Current Year Dynamically 
 const currentYear = new Date().getFullYear();
@@ -26,7 +27,6 @@ const scrollSmoothly = function (e) {
 
     // scroll to the top of the page (those with #)
     if (linkRef === '#' && classType.contains('logo')) {
-        console.log('logo was clicked');
         window.scrollTo({
             top: 0,
             behavior: "smooth"
@@ -49,11 +49,11 @@ const scrollSmoothly = function (e) {
 header.addEventListener('click', (e) => scrollSmoothly(e));
 footer.addEventListener('click', (e) => scrollSmoothly(e));
 sectionHero.addEventListener('click', (e) => scrollSmoothly(e));
+sessionsAllLink.addEventListener('click', (e) => scrollSmoothly(e));
 
 // STICKY NAVIGATION
 const obs = new IntersectionObserver(function (entries) {
     const ent = entries[0];
-    console.log(ent);
     if (!ent.isIntersecting) {
         document.body.classList.add('sticky');
     }
