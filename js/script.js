@@ -69,7 +69,7 @@ const obs = new IntersectionObserver(function (entries) {
 });
 obs.observe(sectionHero);
 
-// Fixing flexbox gap property missing in some Safari versions
+// Fixing flex-box gap property missing in some Safari versions
 function checkFlexGap() {
     var flex = document.createElement("div");
     flex.style.display = "flex";
