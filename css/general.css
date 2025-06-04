@@ -61,12 +61,17 @@ WHITE SPACE
   font-size: 62.5%;
   background-color: var(--beige-secondary);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* removing default link styling  */
 a {
   text-decoration: none;
   color: inherit;
+  border-radius: 4px;
+}
+
+button {
   border-radius: 4px;
 }
 
