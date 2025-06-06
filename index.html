@@ -814,11 +814,12 @@
                 our Club, and experience our top expert-led session in real
                 time.
               </p>
-              <form class="cta-form" action="#">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
                     id="full-name"
+                    name="full-name"
                     type="text"
                     placeholder="Daria Aleshina"
                     required
@@ -829,14 +830,19 @@
                   <label for="email">Email address</label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     placeholder="me@gmail.com"
                     required
                   />
                 </div>
                 <div>
-                  <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" required>
+                  <label for="select-where">Where did you hear about us?</label>
+                  <select
+                    id="select-where"
+                    name="select-where-hear-about-us"
+                    required
+                  >
                     <option value="">Please choose an option:</option>
                     <option value="friends">Friends & Family</option>
                     <option>Social Media</option>
