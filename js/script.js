@@ -4,6 +4,7 @@ const header = document.querySelector('.header');
 const sectionHero = document.querySelector('.section-hero');
 const footer = document.querySelector('footer');
 const sessionsAllLink = document.querySelector('#sessions-link');
+const sectionPricing = document.querySelector('.section-pricing');
 
 // Changing Current Year Dynamically 
 const currentYear = new Date().getFullYear();
@@ -59,6 +60,7 @@ header.addEventListener('click', (e) => scrollSmoothly(e));
 footer.addEventListener('click', (e) => scrollSmoothly(e));
 sectionHero.addEventListener('click', (e) => scrollSmoothly(e));
 sessionsAllLink.addEventListener('click', (e) => scrollSmoothly(e));
+sectionPricing.addEventListener('click', (e) => scrollSmoothly(e));
 
 // STICKY NAVIGATION
 const obs = new IntersectionObserver(function (entries) {
