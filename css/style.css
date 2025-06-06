@@ -415,7 +415,7 @@ ion-icon {
 }
 
 .plan-title {
-  color: var(--coral-primary);
+  color: var(--coral-darker);
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.75;

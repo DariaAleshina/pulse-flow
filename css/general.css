@@ -64,6 +64,10 @@ WHITE SPACE
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-size: 5.2rem;
+}
+
 /* removing default link styling  */
 a {
   text-decoration: none;
@@ -178,7 +182,7 @@ body {
 .btn--primary:link,
 .btn--primary:visited {
   background-color: var(--coral-primary);
-  color: var(--beige-secondary);
+  color: white;
 }
 
 .btn--primary:hover,
