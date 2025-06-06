@@ -132,6 +132,7 @@
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
+    color: var(--black-primary);
   }
 
   .main-nav {
