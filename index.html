@@ -106,11 +106,18 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
-              src="img/hero-main.png"
-              class="hero-img"
-              alt="PulseFlow - the all-in-one fitness and mindfulness subscription that keeps you moving, breathing, and smiling—every single day. No boring routines."
-            />
+            <picture>
+              <!-- browser will choose the one it can use (as webp not supported on older browsers)-->
+              <source srcset="img/hero-main.webp" type="image/webp" />
+              <source srcset="img/hero-main.png" type="image/png" />
+
+              <!-- here we specify the version that all browsers will understand (png) -->
+              <img
+                src="img/hero-main.png"
+                class="hero-img"
+                alt="PulseFlow - the all-in-one fitness and mindfulness subscription that keeps you moving, breathing, and smiling—every single day. No boring routines."
+              />
+            </picture>
           </div>
         </div>
       </section>
