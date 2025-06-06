@@ -29,13 +29,22 @@ const scrollSmoothly = function (e) {
     if (linkRef === '#' && classType.contains('logo')) {
         window.scrollTo({
             top: 0,
-            behavior: "smooth"
+            behavior: "smooth",
         })
     }
 
     // scroll to sections
     if (linkRef !== '#' && linkRef.startsWith('#')) {
-        document.querySelector(`${linkRef}`).scrollIntoView({ behavior: "smooth" })
+        // document.querySelector(`${linkRef}`).scrollIntoView({ behavior: "smooth", rootMargin: '80px' })
+        const target = document.querySelector(`${linkRef}`);
+        const offset = 64;
+
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+        window.scrollTo({
+            top: top,
+            behavior: "smooth"
+        });
 
     }
 
