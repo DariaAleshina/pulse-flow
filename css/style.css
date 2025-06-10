@@ -641,6 +641,8 @@ ion-icon {
 .footer-link:visited {
   font-size: 1.6rem;
   color: var(--grey-primary);
+  display: flex;
+  align-items: center;
 }
 
 .footer-link:hover,
