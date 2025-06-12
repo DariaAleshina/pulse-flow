@@ -28,7 +28,7 @@ This project demonstrates my practical skills in web design and development with
 Interested in working together? I’m a frontend developer passionate about crafting responsive, beautiful, and user-centric websites. If you’re looking for someone to bring your projects to life, let’s connect!
 
 **Get in touch:**  
-✉️ [Email](mailto:ddaleshina@gmail.com?subject=Hire%20the%20Developer%20Behind%20Urban%20Green%20Solutions&body=Hi%2C%0A%0AI%20found%20your%20Urban%20Green%20Solutions%20project%20and%20would%20love%20to%20chat%20about%20working%20together.%0A%0AThanks!)
+✉️ [Email](mailto:ddaleshina@gmail.com?subject=Hire%20the%20Developer%20Behind%20GreenScape&body=Hi,%20Daria%0A%0AI%20came%20across%20your%20PulseFlow%20portfolio%20project%20and%20I'm%20interested%20in%20working%20with%20you.%0A%0ALet's%20connect!%0A%0AThanks%2C)
 🔗 [LinkedIn](https://www.linkedin.com/in/ddaleshina)
 
 ---
